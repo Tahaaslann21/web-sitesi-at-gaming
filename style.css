@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background: url(bg\ copy.jpg);
+}
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #171717;
+    height: 100vh;
+}
+
+ul{
+    padding: 15px;
+    border: 1px solid white;
+    font-family:"Chivo Mono" "monospace" ;
+    display: flex;
+    gap: 72px;
+}
+
+
+ul li{
+list-style: none;
+}
+
+ul li{
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: gold;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px;
+    transition: 0.5s ease;
+}
+
+
+ul :hover{
+    border: 3px solid #f46b30;
+}
+
+ul :hover li a {
+color: #f46b30;
+animation:glowing ls ease-in-out infinite alternate;
+}
+
+
+ul:hover li a:not(:hover) {
+    color: #f46b30;
+}
+
+
+
+body{
+    background-image: url(bg\ copy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #171717;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+ul {
+display: flex;
+gap: 7px;
+}
+
+
+
+
+ul:hover {
+    border: 3px solid #f46b30;
+}
+
+ul:hover li a {
+    color: #f46b30;
+    animation: glowing 1s ease-in-out infinite alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Logo sola, menü sağa */
+    align-items: center; /* Dikey hizalama */
+    background-color: rgba(0, 213, 255, 0.6); /* İstersen arkaplan */
+    padding: 10px 30px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    font-family: "Chivo Mono", monospace;
+}
+
+ul {
+    display: flex;
+    gap: 72px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
